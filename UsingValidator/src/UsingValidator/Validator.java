@@ -77,7 +77,7 @@ public class Validator {
 			    {
 			        d = getDouble(sc, prompt);
 			        if (d > max || d < min)
-			            System.out.printf("Error! Number must be less than %f and greater than %f.\n", max, min);
+			            System.out.printf("Error! Number must be less than %.2f and greater than %.2f.\n", max, min);
 			        else
 			            isValid = true;
 			    }
